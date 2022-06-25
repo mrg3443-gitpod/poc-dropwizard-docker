@@ -8,7 +8,7 @@ The main libraries used in this server are [Dropwizard 1.3](https://www.dropwiza
 
 To get started, make sure you have shutdown both the webserver and database server from the envcheck.  Then, start the database with:
 ```bash
-$ ./start_db.sh
+$ ./docker-start-containers.sh
 ```
 
 Then, either use your IDE to build, run migrations, and run the server with main class `ServiceApplication.java`, or build, run migrations, and run the server in a new terminal window:
