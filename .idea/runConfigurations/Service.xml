@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Service" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.gitpod.ServiceApplication" />
+    <module name="poc-dropwizard-docker" />
+    <option name="PROGRAM_PARAMETERS" value="server configuration.yml" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
