@@ -1,5 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Service" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="com.gitpod.ServiceApplication" />
     <module name="poc-dropwizard-docker" />
     <option name="PROGRAM_PARAMETERS" value="server configuration.yml" />
