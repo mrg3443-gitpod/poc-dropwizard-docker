@@ -21,7 +21,7 @@ database:
   password: "pass"
 
   # the JDBC URL
-  url: "jdbc:postgresql://localhost:5432/poc"
+  url: "jdbc:postgresql://gitpod-mrg3443-gitpod-poc-dropwizard-docker:5432/poc"
 
   # the SQL query to run when validating a connection's liveness
   validationQuery: "/* APIService Health Check */ SELECT 1"
