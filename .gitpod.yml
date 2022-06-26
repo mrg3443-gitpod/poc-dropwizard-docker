@@ -1,3 +1,5 @@
 tasks:
-  - init: mvn install -DskipTests=false
-    command: ./docker-start-containers.sh
+  - init: |
+      ./docker-start-containers.sh
+      mvn install -DskipTests=false
+    command: java -jar "./target/poc-dropwizard-docker-0.0.1-SNAPSHOT.jar" db migrate configuration.yml
